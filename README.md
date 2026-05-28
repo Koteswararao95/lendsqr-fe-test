@@ -145,7 +145,7 @@ HTTP Client:     Axios 1.16.1
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone <git clone https://github.com/Koteswararao95/lendsqr-fe-test.git lendsqr>
 
 # Install dependencies
 npm install
