@@ -11,8 +11,8 @@
 
 ## 📌 Quick Links
 
-- **Live Demo**: [https://deployment-url](https://deployment-url)
-- **GitHub Repo**: [git clone https://github.com/Koteswararao95/lendsqr-fe-test.git lendsqr](git clone https://github.com/Koteswararao95/lendsqr-fe-test.git lendsqr)
+- **Live Demo**: [lendsqr-fe-test-kohl.vercel.app]
+- **GitHub Repo**: [git clone https://github.com/Koteswararao95/lendsqr-fe-test.git lendsqr]
 - **Documentation**: [See detailed README_ASSESSMENT.md](./README_ASSESSMENT.md)
 
 ## ✨ Key Features
