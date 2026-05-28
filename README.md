@@ -12,7 +12,7 @@
 ## 📌 Quick Links
 
 - **Live Demo**: [https://deployment-url](https://deployment-url)
-- **GitHub Repo**: [https://github.com/YOUR-USERNAME/lendsqr-fe-test](https://github.com/YOUR-USERNAME/lendsqr-fe-test)
+- **GitHub Repo**: [https://github.com/YOUR-USERNAME/lendsqr-fe-test](git clone https://github.com/Koteswararao95/lendsqr-fe-test.git lendsqr)
 - **Documentation**: [See detailed README_ASSESSMENT.md](./README_ASSESSMENT.md)
 
 ## ✨ Key Features
