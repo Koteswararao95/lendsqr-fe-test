@@ -1,0 +1,108 @@
+@use '../variables' as *;
+@use '../mixins' as *;
+
+.header {
+  background: $bg-white;
+  border-bottom: 1px solid $border-light;
+  box-shadow: $box-shadow-sm;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-container {
+  @include container;
+  @include flex-between;
+  padding-top: $spacing-lg;
+  padding-bottom: $spacing-lg;
+  gap: $spacing-lg;
+
+  @include mobile {
+    flex-wrap: wrap;
+  }
+}
+
+.header-brand {
+  .logo {
+    font-size: $font-2xl;
+    font-weight: $font-weight-bold;
+    color: $accent-color;
+    margin: 0;
+  }
+}
+
+.header-nav {
+  @include flex-center;
+  gap: $spacing-xl;
+  flex: 1;
+
+  @include mobile {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    gap: $spacing-lg;
+    margin-top: $spacing-md;
+  }
+}
+
+.nav-link {
+  @include button-reset;
+  color: $text-dark;
+  font-weight: $font-weight-medium;
+  font-size: $font-base;
+  padding: $spacing-sm $spacing-md;
+  border-radius: $border-radius-md;
+  @include transition;
+
+  &:hover {
+    background-color: $bg-light;
+    color: $primary-color;
+  }
+
+  &:focus {
+    outline: 2px solid $primary-color;
+    outline-offset: 2px;
+  }
+}
+
+.header-user {
+  @include flex-center;
+  gap: $spacing-md;
+
+  @include mobile {
+    order: 2;
+    gap: $spacing-sm;
+  }
+}
+
+.user-email {
+  color: $text-light;
+  font-size: $font-sm;
+  max-width: 150px;
+  @include text-ellipsis;
+
+  @include mobile {
+    display: none;
+  }
+}
+
+.btn-logout {
+  @include button-reset;
+  padding: $spacing-sm $spacing-md;
+  background-color: rgba($danger-color, 0.1);
+  color: $danger-color;
+  border-radius: $border-radius-md;
+  font-weight: $font-weight-medium;
+  font-size: $font-sm;
+  @include transition;
+  min-height: 36px;
+
+  &:hover {
+    background-color: rgba($danger-color, 0.2);
+  }
+
+  &:focus {
+    outline: 2px solid $danger-color;
+    outline-offset: 2px;
+  }
+}

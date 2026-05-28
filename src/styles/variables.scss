@@ -1,0 +1,81 @@
+/**
+ * Global SCSS Variables and Configuration
+ */
+
+// Colors
+$primary-color: #39cdcc;
+$secondary-color: #344054;
+$accent-color: #213f7d;
+$success-color: #39cdcc;
+$danger-color: #e4033b;
+$warning-color: #ffc107;
+$info-color: #0066cc;
+
+$text-dark: #213f7d;
+$text-light: #545f7d;
+$text-lighter: #8196b3;
+$text-lightest: #d2d3d4;
+
+$bg-white: #ffffff;
+$bg-light: #f5f6f7;
+$bg-lighter: #fafbfc;
+$bg-gray: #e8ebed;
+$bg-dark: #213f7d;
+
+$border-color: #d2d3d4;
+$border-light: #e8ebed;
+
+// Spacing
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+$spacing-xxl: 48px;
+
+// Font sizes
+$font-xs: 11px;
+$font-sm: 12px;
+$font-base: 14px;
+$font-md: 16px;
+$font-lg: 18px;
+$font-xl: 20px;
+$font-2xl: 24px;
+$font-3xl: 32px;
+
+// Font weights
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// Border radius
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+$border-radius-xl: 16px;
+
+// Shadows
+$box-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+$box-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+$box-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+
+// Transitions
+$transition-fast: 150ms ease-in-out;
+$transition-normal: 300ms ease-in-out;
+$transition-slow: 500ms ease-in-out;
+
+// Z-index
+$z-dropdown: 100;
+$z-modal-backdrop: 1000;
+$z-modal: 1010;
+$z-tooltip: 1050;
+
+// Breakpoints
+$breakpoint-xs: 320px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;

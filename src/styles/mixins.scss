@@ -1,0 +1,166 @@
+/**
+ * Global SCSS Mixins
+ */
+
+@use './variables' as *;
+
+// Media query mixins
+@mixin mobile {
+  @media (max-width: $breakpoint-sm - 1) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: $breakpoint-md) and (max-width: $breakpoint-lg - 1) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: $breakpoint-lg) {
+    @content;
+  }
+}
+
+@mixin sm-and-up {
+  @media (min-width: $breakpoint-sm) {
+    @content;
+  }
+}
+
+@mixin md-and-up {
+  @media (min-width: $breakpoint-md) {
+    @content;
+  }
+}
+
+@mixin lg-and-up {
+  @media (min-width: $breakpoint-lg) {
+    @content;
+  }
+}
+
+@mixin xl-and-up {
+  @media (min-width: $breakpoint-xl) {
+    @content;
+  }
+}
+
+// Flexbox helpers
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+// Text utilities
+@mixin text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin text-clamp($lines: 1) {
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+// Transitions
+@mixin transition($property: all) {
+  transition: $property $transition-normal;
+}
+
+// Button reset
+@mixin button-reset {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+// Input reset
+@mixin input-reset {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+// Absolute center
+@mixin absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// Responsive container
+@mixin container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: $spacing-md;
+  padding-right: $spacing-md;
+
+  @include sm-and-up {
+    max-width: $breakpoint-sm - 20px;
+  }
+
+  @include md-and-up {
+    max-width: $breakpoint-md - 20px;
+  }
+
+  @include lg-and-up {
+    max-width: $breakpoint-lg - 20px;
+  }
+
+  @include xl-and-up {
+    max-width: $breakpoint-xl - 20px;
+  }
+}
+
+// Truncate text
+@mixin truncate {
+  @include text-ellipsis;
+}
+
+// Opacity transition
+@mixin opacity-transition {
+  @include transition(opacity);
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
