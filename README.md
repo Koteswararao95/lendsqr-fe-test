@@ -13,7 +13,7 @@
 
 - **Live Demo**: [https://lendsqr-fe-test-66oay8q7n-kotis-projects-8b4759e2.vercel.app]
 - **GitHub Repo**: [git clone https://github.com/Koteswararao95/lendsqr-fe-test.git lendsqr]
-- **Documentation**: [See detailed README_ASSESSMENT.md](./README_ASSESSMENT.md)
+- **Documentation**: [See detailed README_ASSESSMENT.md](https://docs.google.com/document/d/1eweWl5IsaP977msI7Z0DY4-TfnudZOSstv7ASQ-fI3M/edit?usp=sharing)
 
 ## ✨ Key Features
 
