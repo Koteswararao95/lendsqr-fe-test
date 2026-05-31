@@ -11,9 +11,10 @@
 
 ## 📌 Quick Links
 
-- **Live Demo**: [https://deployment-url](https://deployment-url)
-- **GitHub Repo**: [https://github.com/YOUR-USERNAME/lendsqr-fe-test](https://github.com/YOUR-USERNAME/lendsqr-fe-test)
-- **Documentation**: [See detailed README_ASSESSMENT.md](./README_ASSESSMENT.md)
+- **Live Demo**: [https://www.loom.com/share/025f8d9b6da145aa8a10f0a14856efda]
+-  **Output**: [https://lendsqr-fe-test-66oay8q7n-kotis-projects-8b4759e2.vercel.app]
+- **GitHub Repo**: [git clone https://github.com/Koteswararao95/lendsqr-fe-test.git lendsqr]
+- **Documentation**: [See detailed README_ASSESSMENT.md](https://docs.google.com/document/d/1eweWl5IsaP977msI7Z0DY4-TfnudZOSstv7ASQ-fI3M/edit?usp=sharing)
 
 ## ✨ Key Features
 
@@ -145,7 +146,7 @@ HTTP Client:     Axios 1.16.1
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone <git clone https://github.com/Koteswararao95/lendsqr-fe-test.git lendsqr>
 
 # Install dependencies
 npm install
