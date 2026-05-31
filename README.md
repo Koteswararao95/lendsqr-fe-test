@@ -12,7 +12,8 @@
 ## 📌 Quick Links
 
 - **Live Demo**: [https://www.loom.com/share/025f8d9b6da145aa8a10f0a14856efda]
--  **Output**: [https://lendsqr-fe-test-66oay8q7n-kotis-projects-8b4759e2.vercel.app]
+-  **Frontend Live URL**: [https://lendsqr-fe-test-66oay8q7n-kotis-projects-8b4759e2.vercel.app]
+- **Backend Live API:  **:[ https://lendsqr-fe-test-lvss.onrender.com]
 - **GitHub Repo**: [git clone https://github.com/Koteswararao95/lendsqr-fe-test.git lendsqr]
 - **Documentation**: [See detailed README_ASSESSMENT.md](https://docs.google.com/document/d/1eweWl5IsaP977msI7Z0DY4-TfnudZOSstv7ASQ-fI3M/edit?usp=sharing)
 
